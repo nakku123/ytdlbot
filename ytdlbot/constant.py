@@ -22,9 +22,9 @@ from utils import get_func_queue
 
 
 class BotText:
-    start = "Welcome to YouTube Download bot. Using this bot you can download youtube videos Type /help for more information."
+    start = "Welcome to YouTube Download bot🔥. Using this bot you can download youtube just put any youtube video link🔗 and enjoy⚡ videos🎥 Type /help for more information.Made by @memes_mithun"
     help = f"""
-1. This bot should work at all times. If it doesn't, please wait for a few minutes and try sending the link again.
+1. Just send any youtube video link and download🔥This bot should work at all times. If it doesn't, please wait for a few minutes and try sending the link again.
 
 2. At the time of writing, this bot consumes more than 100GB of network traffic per day. 
 To prevent abuse, each user is limited to 5 downloads per 24 hours.
@@ -65,7 +65,7 @@ To prevent abuse, each user is limited to 5 downloads per 24 hours.
 Want to buy more token at once? Let's say 100? Here you go! `/buy 123`
     """
     private = "This bot is for private use"
-    membership_require = f"You need to join this group or channel to use this bot\n\nhttps://t.me/{REQUIRED_MEMBERSHIP}"
+    membership_require = f"You need to join 😃channel to use this bot\n\nhttps://t.me/{REQUIRED_MEMBERSHIP}"
 
     settings = """
 Please choose the desired format and video quality for your video. Note that these settings only **apply to YouTube videos**.
@@ -78,7 +78,7 @@ Your current settings:
 Video quality: **{0}**
 Sending format: **{1}**
 """
-    custom_text = os.getenv("CUSTOM_TEXT", "")
+    custom_text = os.getenv("CUSTOM_TEXT", "@englishkaaranmain")
 
     @staticmethod
     def get_receive_link_text() -> str:
